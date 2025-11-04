@@ -1,0 +1,11 @@
+[[entries]]
+pattern = "~/repos/isync(/.*)?"
+flake_reference = "~/repos/contributed-projects-flakes/isync"
+
+[[entries]]
+pattern = "~/repos/matplotlib(/.*)?"
+flake_reference = "~/repos/contributed-projects-flakes/matplotlib"
+
+[[entries]]
+pattern = "/home/doron/repos/pint(/.*)?"
+flake_reference = "~/repos/contributed-projects-flakes/pint"
