@@ -72,6 +72,17 @@
         #     --showlocals \
         #     $INSTALLDIR/matplotlib/tests/test_ticker.py \
         #     -k 'TestLogFormatterMathtext'
+        #
+        # Or run an example with (e.g):
+        #
+        #   env PYTHONPATH=$PYTHONPATH:$INSTALLDIR python \
+        #     galleries/examples/widgets/radio_buttons_grid.py
+        #
+        # But NOTE that for the above, you'll probably need before importing
+        # `pyplot` to use:
+        #
+        #   __import__('matplotlib').use('qtagg')
+        #
         INSTALLDIR = "dist/nix/${python.sitePackages}";
       };
     }
