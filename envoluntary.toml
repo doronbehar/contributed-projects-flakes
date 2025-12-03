@@ -9,3 +9,7 @@ flake_reference = "~/repos/contributed-projects-flakes/matplotlib"
 [[entries]]
 pattern = "/home/doron/repos/pint(/.*)?"
 flake_reference = "~/repos/contributed-projects-flakes/pint"
+
+[[entries]]
+pattern = "/home/doron/repos/hebcal-web(/.*)?"
+flake_reference = "~/repos/contributed-projects-flakes/hebcal-web"
