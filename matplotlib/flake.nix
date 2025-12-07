@@ -21,6 +21,7 @@
           python.pkgs.flake8
           python.pkgs.isort
           python.pkgs.rstcheck
+          python.pkgs.ruff
           pkgs.ninja
         ]
         ++ python.pkgs.matplotlib.nativeBuildInputs
