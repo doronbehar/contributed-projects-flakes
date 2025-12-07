@@ -65,7 +65,9 @@
         #   --config-settings=builddir=build \
         #   --prefix dist/nix \
         #   --no-build-isolation \
-        #   ".[dev]" 
+        #   ".[dev]" && cp -r \
+        #   lib/matplotlib/tests/baseline_images \
+        #   $INSTALLDIR/matplotlib/tests
         #
         #
         # Run test(s) with (e.g):
