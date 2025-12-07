@@ -8,6 +8,8 @@
         nodePackages_latest.node-gyp
         nodePackages_latest.nodejs
         sqlite
+        protobuf
+        protoc-gen-js
       ];
     };
   };
