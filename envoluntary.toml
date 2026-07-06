@@ -7,6 +7,10 @@ pattern = "~/repos/matplotlib(/.*)?"
 flake_reference = "~/repos/contributed-projects-flakes/matplotlib"
 
 [[entries]]
+pattern = "~/repos/scipp(/.*)?"
+flake_reference = "~/repos/contributed-projects-flakes/scipp"
+
+[[entries]]
 pattern = "/home/doron/repos/pint(/.*)?"
 flake_reference = "~/repos/contributed-projects-flakes/pint"
 
