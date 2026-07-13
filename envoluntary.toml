@@ -3,6 +3,10 @@ pattern = "~/repos/isync(/.*)?"
 flake_reference = "~/repos/contributed-projects-flakes/isync"
 
 [[entries]]
+pattern = "~/repos/musescore(/.*)?"
+flake_reference = "~/repos/contributed-projects-flakes/musescore"
+
+[[entries]]
 pattern = "~/repos/matplotlib(/.*)?"
 flake_reference = "~/repos/contributed-projects-flakes/matplotlib"
 
