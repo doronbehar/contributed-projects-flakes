@@ -25,3 +25,7 @@ flake_reference = "~/repos/contributed-projects-flakes/hebcal-web"
 [[entries]]
 pattern = "/home/doron/repos/Signal-Desktop(/.*)?"
 flake_reference = "~/repos/contributed-projects-flakes/signal-desktop"
+
+[[entries]]
+pattern = "/home/doron/repos/taskwarrior(/.*)?"
+flake_reference = "~/repos/contributed-projects-flakes/taskwarrior"
